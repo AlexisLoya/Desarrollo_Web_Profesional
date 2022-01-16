@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Arriba el atlas</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrapp CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+    .bg-blue {
+      background-color: cornflowerblue;
+    }
+
+    .bg-orange {
+      background-color: chocolate;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <!-- <div class="row mt-3 ">
+            <div class="col-md-12 justify-content-md-center">
+                <button type="button" class="btn btn-danger">Arriba el Atlas</button>
+            </div>
+            <div class="col-md-12 offset-md-4">.<img src="http://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/4223.png" alt="arriba el atlas">
+            </div>
+        </div> -->
+      <h4>Columnas de ancho específico</h4>
+      <div class="row">
+        <div class="col-md-8 bg-orange">
+          <p>col-md-8</p>
+        </div>
+        <div class="col-md-4 bg-blue">
+          <p>col-md-4</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4>Forzar el cambio de fila</h4>
+      <div class="row">
+        <div class="col-md-6 bg-orange">
+          <p>col-md-6</p>
+        </div>
+        <div class="col-md-3 bg-blue">
+          <p>col-md-3</p>
+        </div>
+        <div class="w-100"></div>
+
+        <div class="col-md-3" style="background-color: darkgreen">
+          <p>col-md-3</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4>Selección de dos tamaños de columnas</h4>
+      <div class="row">
+        <div class="col-12 col-md-8 bg-orange">
+          <p>col-md-6</p>
+        </div>
+        <div class="col-6 col-md-4 bg-blue">
+          <p>col-md-3</p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <!-- Anidar las columnas -->
+    <div class="container">
+      <h4>Anidar columnas</h4>
+      <div class="row">
+        <div class="col-sm-3 bg-orange">
+          <p>col-sm-3</p>
+        </div>
+        <div class="col-sm-9 bg-blue">
+          <p>col-sm-9</p>
+          <div class="row">
+            <div class="col-sm-6 bg-orange">aaaaaaaaaaaa</div>
+            <div class="col-sm-6 bg-blue">aaaaaaa</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- margenes -->
+    <div class="container">
+      <h4>Margenes</h4>
+      <div class="row">
+        <div class="col-md-4 bg-orange">
+          <p>col-md-4</p>
+        </div>
+        <div
+          class="col-md-4 offset-md-4"
+          style="background-color: cornflowerblue"
+        >
+          <p>col-md-4 offset-md-4</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-3 bg-orange">
+          <p>col-md-4</p>
+        </div>
+        <div
+          class="col-md-3 offset-md-3"
+          style="background-color: cornflowerblue"
+        >
+          <p>col-md-4 offset-md-4</p>
+        </div>
+      </div>
+    </div>
+    <!-- margenes auto-->
+    <div class="container">
+      <h4>Margenes auto</h4>
+      <div class="row">
+        <div class="col-md-4 bg-orange">
+          <p>col-md-4</p>
+        </div>
+        <div class="col-md-4 ml-auto bg-blue">
+          <p>col-md-4 offset-md-4</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-3 bg-orange">
+          <p>col-md-4</p>
+        </div>
+        <div
+          class="col-md-3 offset-md-3"
+          style="background-color: cornflowerblue"
+        >
+          <p>col-md-4 offset-md-4</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- Columnas de anchos automaticos -->
+    <div class="container">
+      <h4>Columnas de anchos automaticos</h4>
+      <div class="row">
+        <div class="col bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col bg-blue">
+          <p>2</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col bg-blue">
+          <p>2</p>
+        </div>
+        <div class="col bg-orange">
+          <p>3</p>
+        </div>
+        <div class="col bg-blue">
+          <p>4</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- margenes auto-->
+    <div class="container">
+      <h4>Margenes auto</h4>
+      <div class="row">
+        <div class="col-md-4 bg-orange">
+          <p>col-md-4</p>
+        </div>
+        <div class="col-md-4 ml-auto bg-blue">
+          <p>col-md-4 offset-md-4</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 ml-md-auto bg-orange">
+          <p>col-md-4</p>
+        </div>
+        <div
+          class="col-md-3 ml-md-auto"
+          style="background-color: cornflowerblue"
+        >
+          <p>col-md-4 offset-md-4</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- Ordenar columnas -->
+    <div class="container">
+      <h4>Ordenar columnas</h4>
+      <div class="row">
+        <div class="col order-md-10 order-lg-1 bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col order-md-2 order-lg-2 bg-blue">
+          <p>2</p>
+        </div>
+        <div class="col order-lg-3 bg-orange">
+          <p>3</p>
+        </div>
+        <div class="col order-md-3 order-lg-4 bg-blue">
+          <p>4</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- Alineación horizontal -->
+
+    <div class="container">
+      <h4>Alineación horizontal</h4>
+      <div class="row justify-content-start">
+        <div class="col-md-4 bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col-md-4 bg-blue">
+          <p>2</p>
+        </div>
+      </div>
+
+    <!-- justify-content-center -->
+      <br />
+      <div class="row justify-content-center">
+        <div class="col-md-4 bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col-md-4 bg-blue">
+          <p>2</p>
+        </div>
+      </div>
+      <br />
+      <div class="row justify-content-end">
+        <div class="col-md-4 bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col-md-4 bg-blue">
+          <p>2</p>
+        </div>
+      </div>
+      <br />
+      <div class="row justify-content-around">
+        <div class="col-md-4 bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col-md-4 bg-blue">
+          <p>2</p>
+        </div>
+      </div>
+      <br />
+      <div class="row justify-content-between">
+        <div class="col-md-4 bg-orange">
+          <p>1</p>
+        </div>
+        <div class="col-md-4 bg-blue">
+          <p>2</p>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
